@@ -442,12 +442,12 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 2) return '冰冰现在很气';
-        if (cps <= 3) return '冰冰：哎呀我掉下去了/怒';
-        if (cps <= 4)  return '冰冰：拉胯';
-        if (cps <= 5) return '冰冰：做做花开再来试试吧/叹气';
-        if (cps <= 6) return '冰冰：整挺好，就是逊了点';
-        if (cps <= 7) return '冰冰：距离第一名还有点差距倭';
-        if (cps <= 8) return '冰冰：人？';
+        if (cps <= 3) return '冰冰：放假了';
+        if (cps <= 4)  return '冰冰：我不接受你的理由';
+        if (cps <= 5) return '冰冰：这题怎么能做错呢？';
+        if (cps <= 6) return '冰冰：我想静静';
+        if (cps <= 7) return '冰冰：很显然cps5-6的内容是病句';
+        if (cps <= 8) return '冰冰：你已经掌握吃冰的真谛了';
         return '地球生活的可好？';
     }
 
